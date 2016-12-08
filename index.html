@@ -3,14 +3,14 @@
 
 <head>
     <script src="./node_modules/angular/angular.min.js"></script>
-    <script src="./app/scripts/ngParallax.js"></script>
+    <script src="./node_modules/ng-parallax/src/ngParallax.js"></script>
     <script src="./app/scripts/app.js"></script>
     <script src="./app/scripts/full-height.directive.js"></script>
     <link rel="stylesheet" href="./app/content/css/main.css">
 </head>
 <body class="container">
-    <div ng-parallax pattern="'/app/content/images/bcg_slide-1.jpg'" speed="15"><full-height></div>
-    <div ng-parallax pattern="'/app/content/images/bcg_slide-2.jpg'" speed="15" reverse='true'><full-height></div>
-    <div ng-parallax pattern="'/app/content/images/bcg_slide-3.jpg'" speed="15"><full-height>/div>
+    <div class="bgObj" ng-parallax pattern="'/app/content/images/bcg_slide-1.jpg'" speed="15"><full-height></div>
+    <div class="bgObj" ng-parallax pattern="'/app/content/images/bcg_slide-2.jpg'" speed="15" reverse='true'><full-height></div>
+    <div class="bgObj" ng-parallax pattern="'/app/content/images/bcg_slide-3.jpg'" speed="15"><full-height>/div>
 </body>
 </html>
