@@ -1,0 +1,20 @@
+{
+  "name": "ng-parallax-app",
+  "version": "1.0.0",
+  "description": "Experiment with ngParallax to create parallax effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ngParallax"
+  ],
+  "author": "atiqorin",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.14"
+  },
+  "devDependencies": {
+    "ng-parallax": "^1.1.3"
+  }
+}
